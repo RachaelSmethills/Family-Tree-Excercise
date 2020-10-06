@@ -1,0 +1,16 @@
+{
+  "name": "familytree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "family.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node family.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.5.0"
+  }
+}
