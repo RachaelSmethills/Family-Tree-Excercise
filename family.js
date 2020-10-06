@@ -25,5 +25,9 @@ const generation1 = [rachael, charlotte],
     generation2 = [jonathan, catherine],
     generation3 = [ian, nan, harry, joan];
 
+// Get grandparents names of Gen 1
+console.log(generation1.map(
+    x => x.parents.map(
+        y => y.childOf())));
 
 console.log(generation1, generation2, generation3);
