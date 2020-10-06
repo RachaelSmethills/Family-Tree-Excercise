@@ -21,5 +21,9 @@ jonathan.parents.push(nan);
 catherine.parents.push(harry);
 catherine.parents.push(joan);
 
+const generation1 = [rachael, charlotte],
+    generation2 = [jonathan, catherine],
+    generation3 = [ian, nan, harry, joan];
 
-console.log(catherine.childOf());
+
+console.log(generation1, generation2, generation3);
